@@ -3,7 +3,7 @@ A portal working with [Creek](https://github.com/send2vinnie/Creek/) background 
 
 ## qBitorrent Support
 
-It has been tested only with [qBittorrent 2.8.x](http://www.qbittorrent.org/) or below.
+It has been tested only with [qBittorrent 2.9.x](http://www.qbittorrent.org/) or below.
 
 ## Features
 
