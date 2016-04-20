@@ -1,0 +1,14 @@
+Content List - *blue-documents.png
+Work in Progress = *blue-document-task.png
+Content - *database-network.png
+Content OK - *blue-document.png
+Content not Ready - *blue-document-exclamation.png / *blue-document-broken.png
+Seed - *application-monitor.png / *monitor-network.png / *network-clouds.png / *system-monitor-network.png / *servers-network.png
+New Content - *blue-document-plus.png / *application-plus.png / *notebook-plus.png / *plus-circle.png
+Offline - *blue-document-minus.png / *broom.png / *minus-circle.png / *notebook-minus.png
+Deploy - *blue-document-arrow.png / *blue-document-export.png / *blue-document-share.png / *document-share.png / *notebook-share.png
+Pause - *control-pause.png
+Resume - *control.png
+Downloader - *navigation-down.png / *drive-download.png
+Available - *dummy-happy.png / *tick-circle.png / *thumb-up.png / *traffic-light.png / *plug-connect.png
+Unavailable - *dummy-sad.png / *exclamation-red.png / *thumb.png / *traffic-light-off.png / *plug-disconnect.png

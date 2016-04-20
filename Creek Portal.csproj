@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9E67C4BE-4623-4C24-B787-1E75C29BF5BF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreekPortal</RootNamespace>
+    <AssemblyName>CreekPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PackageAsSingleFile>false</PackageAsSingleFile>
+    <PublishDatabases>false</PublishDatabases>
+    <DesktopBuildPackageLocation>..\Setup\Gamania Content Delivery Network\Setup\Creek Portal</DesktopBuildPackageLocation>
+    <DeployIisAppPath />
+    <ExcludeApp_Data>true</ExcludeApp_Data>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="jQuery\themes\Creek Icon.css" />
+    <Content Include="jQuery\themes\Creek Icons\application-monitor.png" />
+    <Content Include="jQuery\themes\Creek Icons\application-plus.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-plus.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-arrow.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-broken.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-exclamation.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-export.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-minus.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-share.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document-task.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-document.png" />
+    <Content Include="jQuery\themes\Creek Icons\blue-documents.png" />
+    <Content Include="jQuery\themes\Creek Icons\broom.png" />
+    <Content Include="jQuery\themes\Creek Icons\control-pause.png" />
+    <Content Include="jQuery\themes\Creek Icons\control.png" />
+    <Content Include="jQuery\themes\Creek Icons\Creek Icon List.txt" />
+    <Content Include="jQuery\themes\Creek Icons\database-network.png" />
+    <Content Include="jQuery\themes\Creek Icons\document-share.png" />
+    <Content Include="jQuery\themes\Creek Icons\drive-download.png" />
+    <Content Include="jQuery\themes\Creek Icons\dummy-happy.png" />
+    <Content Include="jQuery\themes\Creek Icons\dummy-sad.png" />
+    <Content Include="jQuery\themes\Creek Icons\exclamation-red.png" />
+    <Content Include="jQuery\themes\Creek Icons\minus-circle.png" />
+    <Content Include="jQuery\themes\Creek Icons\monitor-network.png" />
+    <Content Include="jQuery\themes\Creek Icons\navigation-down.png" />
+    <Content Include="jQuery\themes\Creek Icons\network-clouds.png" />
+    <Content Include="jQuery\themes\Creek Icons\notebook-minus.png" />
+    <Content Include="jQuery\themes\Creek Icons\notebook-plus.png" />
+    <Content Include="jQuery\themes\Creek Icons\notebook-share.png" />
+    <Content Include="jQuery\themes\Creek Icons\plug-connect.png" />
+    <Content Include="jQuery\themes\Creek Icons\plug-disconnect.png" />
+    <Content Include="jQuery\themes\Creek Icons\plus-circle.png" />
+    <Content Include="jQuery\themes\Creek Icons\servers-network.png" />
+    <Content Include="jQuery\themes\Creek Icons\system-monitor-network.png" />
+    <Content Include="jQuery\themes\Creek Icons\thumb-up.png" />
+    <Content Include="jQuery\themes\Creek Icons\thumb.png" />
+    <Content Include="jQuery\themes\Creek Icons\tick-circle.png" />
+    <Content Include="jQuery\themes\Creek Icons\traffic-light-off.png" />
+    <Content Include="jQuery\themes\Creek Icons\traffic-light.png" />
+    <Content Include="Portal.aspx" />
+    <Content Include="jQuery\datagrid-detailview.js" />
+    <Content Include="jQuery\jquery-1.6.min.js" />
+    <Content Include="jQuery\jquery.easyui.min.js" />
+    <Content Include="jQuery\jquery.edatagrid.js" />
+    <Content Include="jQuery\jquery.portal.js" />
+    <Content Include="jQuery\plugins\jquery.datagrid.js" />
+    <Content Include="jQuery\plugins\jquery.form.js" />
+    <Content Include="jQuery\themes\default\easyui.css" />
+    <Content Include="jQuery\themes\default\images\accordion_collapse.png" />
+    <Content Include="jQuery\themes\default\images\accordion_expand.png" />
+    <Content Include="jQuery\themes\default\images\blank.gif" />
+    <Content Include="jQuery\themes\default\images\button_a_bg.gif" />
+    <Content Include="jQuery\themes\default\images\button_plain_hover.png" />
+    <Content Include="jQuery\themes\default\images\button_span_bg.gif" />
+    <Content Include="jQuery\themes\default\images\calendar_nextmonth.gif" />
+    <Content Include="jQuery\themes\default\images\calendar_nextyear.gif" />
+    <Content Include="jQuery\themes\default\images\calendar_prevmonth.gif" />
+    <Content Include="jQuery\themes\default\images\calendar_prevyear.gif" />
+    <Content Include="jQuery\themes\default\images\combo_arrow.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_header_bg.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_row_collapse.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_row_expand.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_sort_asc.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_sort_desc.gif" />
+    <Content Include="jQuery\themes\default\images\datagrid_title_bg.png" />
+    <Content Include="jQuery\themes\default\images\datebox_arrow.png" />
+    <Content Include="jQuery\themes\default\images\layout_button_down.gif" />
+    <Content Include="jQuery\themes\default\images\layout_button_left.gif" />
+    <Content Include="jQuery\themes\default\images\layout_button_right.gif" />
+    <Content Include="jQuery\themes\default\images\layout_button_up.gif" />
+    <Content Include="jQuery\themes\default\images\menu.gif" />
+    <Content Include="jQuery\themes\default\images\menu_downarrow.png" />
+    <Content Include="jQuery\themes\default\images\menu_rightarrow.png" />
+    <Content Include="jQuery\themes\default\images\menu_sep.png" />
+    <Content Include="jQuery\themes\default\images\menu_split_downarrow.png" />
+    <Content Include="jQuery\themes\default\images\messager_error.gif" />
+    <Content Include="jQuery\themes\default\images\messager_info.gif" />
+    <Content Include="jQuery\themes\default\images\messager_question.gif" />
+    <Content Include="jQuery\themes\default\images\messager_warning.gif" />
+    <Content Include="jQuery\themes\default\images\pagination_first.gif" />
+    <Content Include="jQuery\themes\default\images\pagination_last.gif" />
+    <Content Include="jQuery\themes\default\images\pagination_load.png" />
+    <Content Include="jQuery\themes\default\images\pagination_loading.gif" />
+    <Content Include="jQuery\themes\default\images\pagination_next.gif" />
+    <Content Include="jQuery\themes\default\images\pagination_prev.gif" />
+    <Content Include="jQuery\themes\default\images\panel_loading.gif" />
+    <Content Include="jQuery\themes\default\images\panel_title.png" />
+    <Content Include="jQuery\themes\default\images\panel_tools.gif" />
+    <Content Include="jQuery\themes\default\images\panel_tool_collapse.gif" />
+    <Content Include="jQuery\themes\default\images\panel_tool_expand.gif" />
+    <Content Include="jQuery\themes\default\images\searchbox_button.png" />
+    <Content Include="jQuery\themes\default\images\spinner_arrow_down.gif" />
+    <Content Include="jQuery\themes\default\images\spinner_arrow_up.gif" />
+    <Content Include="jQuery\themes\default\images\tabs_active.png" />
+    <Content Include="jQuery\themes\default\images\tabs_close.gif" />
+    <Content Include="jQuery\themes\default\images\tabs_enabled.png" />
+    <Content Include="jQuery\themes\default\images\tabs_leftarrow.png" />
+    <Content Include="jQuery\themes\default\images\tabs_rightarrow.png" />
+    <Content Include="jQuery\themes\default\images\tree_arrows.gif" />
+    <Content Include="jQuery\themes\default\images\tree_checkbox_0.gif" />
+    <Content Include="jQuery\themes\default\images\tree_checkbox_1.gif" />
+    <Content Include="jQuery\themes\default\images\tree_checkbox_2.gif" />
+    <Content Include="jQuery\themes\default\images\tree_dnd_no.png" />
+    <Content Include="jQuery\themes\default\images\tree_dnd_yes.png" />
+    <Content Include="jQuery\themes\default\images\tree_file.gif" />
+    <Content Include="jQuery\themes\default\images\tree_folder.gif" />
+    <Content Include="jQuery\themes\default\images\tree_folder_open.gif" />
+    <Content Include="jQuery\themes\default\images\tree_loading.gif" />
+    <Content Include="jQuery\themes\default\images\validatebox_pointer.gif" />
+    <Content Include="jQuery\themes\default\images\validatebox_warning.png" />
+    <Content Include="jQuery\themes\gray\easyui.css" />
+    <Content Include="jQuery\themes\gray\images\accordion_collapse.png" />
+    <Content Include="jQuery\themes\gray\images\accordion_expand.png" />
+    <Content Include="jQuery\themes\gray\images\blank.gif" />
+    <Content Include="jQuery\themes\gray\images\button_a_bg.gif" />
+    <Content Include="jQuery\themes\gray\images\button_plain_hover.png" />
+    <Content Include="jQuery\themes\gray\images\button_span_bg.gif" />
+    <Content Include="jQuery\themes\gray\images\calendar_nextmonth.gif" />
+    <Content Include="jQuery\themes\gray\images\calendar_nextyear.gif" />
+    <Content Include="jQuery\themes\gray\images\calendar_prevmonth.gif" />
+    <Content Include="jQuery\themes\gray\images\calendar_prevyear.gif" />
+    <Content Include="jQuery\themes\gray\images\combo_arrow.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_header_bg.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_row_collapse.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_row_expand.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_sort_asc.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_sort_desc.gif" />
+    <Content Include="jQuery\themes\gray\images\datagrid_title_bg.gif" />
+    <Content Include="jQuery\themes\gray\images\datebox_arrow.png" />
+    <Content Include="jQuery\themes\gray\images\layout_button_down.gif" />
+    <Content Include="jQuery\themes\gray\images\layout_button_left.gif" />
+    <Content Include="jQuery\themes\gray\images\layout_button_right.gif" />
+    <Content Include="jQuery\themes\gray\images\layout_button_up.gif" />
+    <Content Include="jQuery\themes\gray\images\menu.gif" />
+    <Content Include="jQuery\themes\gray\images\menu_downarrow.png" />
+    <Content Include="jQuery\themes\gray\images\menu_rightarrow.png" />
+    <Content Include="jQuery\themes\gray\images\menu_sep.png" />
+    <Content Include="jQuery\themes\gray\images\menu_split_downarrow.png" />
+    <Content Include="jQuery\themes\gray\images\messager_error.gif" />
+    <Content Include="jQuery\themes\gray\images\messager_info.gif" />
+    <Content Include="jQuery\themes\gray\images\messager_question.gif" />
+    <Content Include="jQuery\themes\gray\images\messager_warning.gif" />
+    <Content Include="jQuery\themes\gray\images\pagination_first.gif" />
+    <Content Include="jQuery\themes\gray\images\pagination_last.gif" />
+    <Content Include="jQuery\themes\gray\images\pagination_load.png" />
+    <Content Include="jQuery\themes\gray\images\pagination_loading.gif" />
+    <Content Include="jQuery\themes\gray\images\pagination_next.gif" />
+    <Content Include="jQuery\themes\gray\images\pagination_prev.gif" />
+    <Content Include="jQuery\themes\gray\images\panel_loading.gif" />
+    <Content Include="jQuery\themes\gray\images\panel_title.gif" />
+    <Content Include="jQuery\themes\gray\images\panel_tools.gif" />
+    <Content Include="jQuery\themes\gray\images\panel_tool_collapse.gif" />
+    <Content Include="jQuery\themes\gray\images\panel_tool_expand.gif" />
+    <Content Include="jQuery\themes\gray\images\searchbox_button.png" />
+    <Content Include="jQuery\themes\gray\images\spinner_arrow_down.gif" />
+    <Content Include="jQuery\themes\gray\images\spinner_arrow_up.gif" />
+    <Content Include="jQuery\themes\gray\images\tabs_close.gif" />
+    <Content Include="jQuery\themes\gray\images\tabs_enabled.gif" />
+    <Content Include="jQuery\themes\gray\images\tabs_leftarrow.png" />
+    <Content Include="jQuery\themes\gray\images\tabs_rightarrow.png" />
+    <Content Include="jQuery\themes\gray\images\tree_arrows.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_checkbox_0.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_checkbox_1.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_checkbox_2.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_dnd_no.png" />
+    <Content Include="jQuery\themes\gray\images\tree_dnd_yes.png" />
+    <Content Include="jQuery\themes\gray\images\tree_file.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_folder.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_folder_open.gif" />
+    <Content Include="jQuery\themes\gray\images\tree_loading.gif" />
+    <Content Include="jQuery\themes\gray\images\validatebox_pointer.gif" />
+    <Content Include="jQuery\themes\gray\images\validatebox_warning.png" />
+    <Content Include="jQuery\themes\icon.css" />
+    <Content Include="jQuery\themes\icons\back.png" />
+    <Content Include="jQuery\themes\icons\blank.gif" />
+    <Content Include="jQuery\themes\icons\cancel.png" />
+    <Content Include="jQuery\themes\icons\cut.png" />
+    <Content Include="jQuery\themes\icons\edit_add.png" />
+    <Content Include="jQuery\themes\icons\edit_remove.png" />
+    <Content Include="jQuery\themes\icons\filesave.png" />
+    <Content Include="jQuery\themes\icons\help.png" />
+    <Content Include="jQuery\themes\icons\no.png" />
+    <Content Include="jQuery\themes\icons\ok.png" />
+    <Content Include="jQuery\themes\icons\pencil.png" />
+    <Content Include="jQuery\themes\icons\print.png" />
+    <Content Include="jQuery\themes\icons\redo.png" />
+    <Content Include="jQuery\themes\icons\reload.png" />
+    <Content Include="jQuery\themes\icons\search.png" />
+    <Content Include="jQuery\themes\icons\sum.png" />
+    <Content Include="jQuery\themes\icons\tip.png" />
+    <Content Include="jQuery\themes\icons\undo.png" />
+    <Content Include="Portal.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandHandler.cs" />
+    <Compile Include="FrontController\DefaultRequestHandler.cs" />
+    <Compile Include="FrontController\FrontControllerHandler.cs" />
+    <Compile Include="FrontController\ICommand.cs" />
+    <Compile Include="FrontController\IRequestHandler.cs" />
+    <Compile Include="FrontController\RequestMatching\CatchAllRequestMatcher.cs" />
+    <Compile Include="FrontController\RequestMatching\IRequestMatcher.cs" />
+    <Compile Include="FrontController\RequestMatching\SingleParamRequestMatcher.cs" />
+    <Compile Include="FrontController\ResponseFilling\DefaultResponseFiller.cs" />
+    <Compile Include="FrontController\ResponseFilling\IResponseFiller.cs" />
+    <Compile Include="Portal.aspx.cs">
+      <DependentUpon>Portal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portal.aspx.designer.cs">
+      <DependentUpon>Portal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Processors\ContentDownloaderRequestProcessor.cs" />
+    <Compile Include="Processors\DataProviderFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryContentRecipesJsonFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryIconFileFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryDefaultValuesFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryPromoEventServerUrlFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryPromoEventIdFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryGaProfileIdFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryDisclaimerFileFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryOnlineFaqUrlFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryHomeUrlFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryDisplayNameFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryContentVersionListFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryTorrentSeedDetailFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryContentSummaryFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryWorkInProgressFiller.cs" />
+    <Compile Include="Processors\DataProviders\QueryContentListFiller.cs" />
+    <Compile Include="Processors\DataProviders\QuerySeedListFiller.cs" />
+    <Compile Include="Processors\OperationFiller.cs" />
+    <Compile Include="Processors\DataProviders\QuerySysNotificationFiller.cs" />
+    <Compile Include="Processors\Operations\ContentGenFiller.cs" />
+    <Compile Include="Processors\Operations\ResumeContentFiller.cs" />
+    <Compile Include="Processors\Operations\OfflineContentFiller.cs" />
+    <Compile Include="Processors\Operations\DeployContentFiller.cs" />
+    <Compile Include="Processors\Operations\InterruptContentGenFiller.cs" />
+    <Compile Include="Processors\Operations\PauseContentFiller.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Creek\Creek.csproj">
+      <Project>{3D46E252-B0A8-436A-9158-55834FC5DDEE}</Project>
+      <Name>Creek</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quartz Creek\src\Quartz\Quartz.2010.csproj">
+      <Project>{AEF8823B-E45B-4B35-A4D0-C08C1196D017}</Project>
+      <Name>Quartz.2010</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Json40r2\Source\Src\Newtonsoft.Json\Newtonsoft.Json.csproj">
+      <Project>{A9AE40FF-1A21-414A-9FE7-3BE13644CC6D}</Project>
+      <Name>Newtonsoft.Json</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>10177</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
