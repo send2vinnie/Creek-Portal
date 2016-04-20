@@ -1,5 +1,5 @@
 # Creek Portal
-A portal working with Creek background service for administrating qBittorrent.
+A portal working with [Creek](https://github.com/send2vinnie/Creek/) background service for administrating qBittorrent.
 
 ## qBitorrent Support
 
